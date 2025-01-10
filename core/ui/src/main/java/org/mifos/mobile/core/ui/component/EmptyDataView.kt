@@ -58,14 +58,14 @@ fun EmptyDataView(
                 MifosIcons.Error
             },
             contentDescription = null,
-            tint = MaterialTheme.colorScheme.onSecondary,
+            tint = MaterialTheme.colorScheme.surfaceTint,
         )
 
         Text(
             modifier = Modifier.padding(horizontal = 20.dp),
             text = errorString ?: stringResource(id = error),
             style = TextStyle(fontSize = 20.sp),
-            color = MaterialTheme.colorScheme.onSecondary,
+            color = MaterialTheme.colorScheme.surfaceTint,
             textAlign = TextAlign.Center,
         )
     }

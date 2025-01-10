@@ -8,6 +8,14 @@
 
     See https://github.com/openMF/mobile-mobile/blob/master/LICENSE.md
 -->
-<resources>
-    <color name="colorPrimary">#8BBF56</color>
-</resources>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--   <item>
+           <color android:color="@color/white" />
+       </item> -->
+
+       <item
+           android:width="160dp"
+           android:height="160dp"
+           android:drawable="@drawable/mifos_splash_screen_logo"
+           android:gravity="center" />
+   </layer-list>

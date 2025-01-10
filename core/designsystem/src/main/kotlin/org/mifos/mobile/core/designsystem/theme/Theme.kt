@@ -46,8 +46,8 @@ fun MifosMobileTheme(
     content: @Composable () -> Unit,
 ) {
     val colors = when {
-        useDarkTheme -> DarkThemeColors
-        else -> LightThemeColors
+        useDarkTheme -> DarkNeoScheme
+        else -> LightNeoScheme
     }
 
     MaterialTheme(

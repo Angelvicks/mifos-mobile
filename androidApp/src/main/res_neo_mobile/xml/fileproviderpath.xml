@@ -8,6 +8,8 @@
 
     See https://github.com/openMF/mobile-mobile/blob/master/LICENSE.md
 -->
-<resources>
-    <color name="colorPrimary">#8BBF56</color>
-</resources>
+<paths>
+    <cache-path
+        name="shared_images"
+        path="images/" />
+</paths>

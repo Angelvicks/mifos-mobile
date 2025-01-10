@@ -11,8 +11,8 @@ package org.mifos.mobile.core.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Blue600 = Color(0xFF1E88E5)
-val Blue700 = Color(0xFF1976D2)
+val Blue600 = Color(0xFF4A7C2E)
+val Blue700 = Color(0xFFBDE096)
 
 val Black1 = Color(0xFF222222)
 val Black2 = Color(0xFF000000)
@@ -21,11 +21,11 @@ val BackgroundDark = Color(0xFF1B1B1F)
 
 val RedErrorDark = Color(0xFFB00020)
 
-val LightPrimary = Color(0xFF325ca8)
-val DarkPrimary = Color(0xFF9bb1e3)
+val LightPrimary = Color(0xFF4A7C2E)
+val DarkPrimary = Color(0xFFBDE096)
 
 val DepositGreen = Color(0xff14c416)
-val Blue = Color(0xFF003FFF)
+val Blue = Color(0xFFCDDC39)
 val RedLight = Color(0xFFFF4444)
 val LightYellow = Color(0xFFF9AC06)
 
@@ -33,8 +33,8 @@ val Primary = Color(0xFF3F51B5)
 val DarkGray = Color(0xBB666666)
 
 val GreenSuccess = Color(0xff14c416)
-val LightSurfaceTint = Color(0xFF325CA8)
-val DarkSurfaceTint = Color(0xFFAEC6FF)
+val LightSurfaceTint = Color(0xFFBDE096)
+val DarkSurfaceTint = Color(0xFF4A7C2E)
 
 val lightScrim = Color(0x80FFFFFF)
 val darkScrim = Color(0x80000000)

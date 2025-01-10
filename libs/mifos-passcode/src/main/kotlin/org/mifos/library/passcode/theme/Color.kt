@@ -11,4 +11,4 @@ package org.mifos.library.passcode.theme
 
 import androidx.compose.ui.graphics.Color
 
-internal val blueTint = Color(0xFF03A9F4)
+internal val blueTint = Color(0xFF8BBF56)

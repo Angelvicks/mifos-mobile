@@ -59,6 +59,12 @@ android {
         }
     }
 
+    sourceSets {
+        getByName("debug") {
+            res.srcDirs("src/main/res_neo_mobile")
+        }
+    }
+
     buildFeatures {
         compose = true
         buildConfig = true

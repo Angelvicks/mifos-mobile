@@ -47,7 +47,7 @@ fun MifosRadioButtonDialog(
         onDismissRequest = onDismissRequest,
         modifier = modifier,
     ) {
-        Card {
+        Card (colors = CardDefaults.cardColors(MaterialTheme.colorScheme.onPrimary)) {
             Column(modifier = Modifier.padding(20.dp)) {
                 Text(text = stringResource(id = titleResId))
                 LazyColumn(

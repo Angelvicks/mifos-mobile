@@ -41,6 +41,7 @@ fun MifosItemCard(
             defaultElevation = elevation,
         ),
         content = content,
+        colors = CardDefaults.cardColors(MaterialTheme.colorScheme.primary)
     )
 }
 
