@@ -1,4 +1,4 @@
-package org.mifos.mobile.core.ui.theme
+package org.mifos.mobile.core.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 

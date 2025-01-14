@@ -40,7 +40,7 @@ internal fun TransferDialog(
         onDismissRequest = onDismissRequest,
         modifier = modifier,
     ) {
-        Card (colors = CardDefaults.cardColors(MaterialTheme.colorScheme.onPrimary)) {
+        Card(colors = CardDefaults.cardColors(MaterialTheme.colorScheme.onPrimary)) {
             Column(
                 modifier = Modifier
                     .fillMaxWidth()

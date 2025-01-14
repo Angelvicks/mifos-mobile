@@ -1,4 +1,4 @@
-package org.mifos.mobile.core.ui.theme
+package org.mifos.mobile.core.designsystem.theme
 
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme

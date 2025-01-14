@@ -278,7 +278,7 @@ private fun HomeCard(
     Card(
         modifier = modifier,
         onClick = onClick,
-        colors = CardDefaults.cardColors(MaterialTheme.colorScheme.surfaceTint)
+        colors = CardDefaults.cardColors(MaterialTheme.colorScheme.surfaceTint),
     ) {
         Column(
             modifier = Modifier
@@ -317,7 +317,7 @@ private fun AccountOverviewCard(
         Card(
             modifier = Modifier
                 .fillMaxWidth(),
-            colors = CardDefaults.cardColors(MaterialTheme.colorScheme.surfaceTint)
+            colors = CardDefaults.cardColors(MaterialTheme.colorScheme.surfaceTint),
         ) {
             Column(
                 modifier = Modifier
