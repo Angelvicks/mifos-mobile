@@ -11,34 +11,7 @@ package org.mifos.mobile.core.designsystem.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.graphics.Color
-
-private val LightThemeColors = lightColorScheme(
-    primary = LightPrimary,
-    onPrimary = Color.White,
-    error = RedErrorDark,
-    background = BackgroundLight,
-    onSurface = Black2,
-    onSecondary = Color.Gray,
-    outlineVariant = Color.Gray,
-    surfaceTint = LightSurfaceTint,
-)
-
-private val DarkThemeColors = darkColorScheme(
-    primary = DarkPrimary,
-    onPrimary = Color.White,
-    secondary = Black1,
-    error = RedErrorDark,
-    background = BackgroundDark,
-    surface = Black1,
-    onSurface = Color.White,
-    onSecondary = Color.White,
-    outlineVariant = Color.White,
-    surfaceTint = DarkSurfaceTint,
-)
 
 @Composable
 fun MifosMobileTheme(
