@@ -20,7 +20,9 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.BasicAlertDialog
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -47,7 +49,7 @@ fun MifosRadioButtonDialog(
         onDismissRequest = onDismissRequest,
         modifier = modifier,
     ) {
-        Card (colors = CardDefaults.cardColors(MaterialTheme.colorScheme.onPrimary)) {
+        Card(colors = CardDefaults.cardColors(MaterialTheme.colorScheme.onPrimary)) {
             Column(modifier = Modifier.padding(20.dp)) {
                 Text(text = stringResource(id = titleResId))
                 LazyColumn(

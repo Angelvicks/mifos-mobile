@@ -41,11 +41,9 @@ import androidx.compose.ui.unit.dp
 import org.mifos.mobile.core.designsystem.components.MifosButton
 import org.mifos.mobile.core.designsystem.components.MifosOutlinedButton
 import org.mifos.mobile.core.designsystem.components.MifosOutlinedTextField
-import org.mifos.mobile.core.designsystem.theme.DarkGray
 import org.mifos.mobile.core.designsystem.theme.DarkPrimary
 import org.mifos.mobile.core.designsystem.theme.LightPrimary
 import org.mifos.mobile.core.designsystem.theme.MifosMobileTheme
-import org.mifos.mobile.core.designsystem.theme.Primary
 import org.mifos.mobile.core.model.entity.payload.ReviewTransferPayload
 import org.mifos.mobile.core.model.entity.templates.account.AccountOption
 import org.mifos.mobile.core.ui.component.MFStepProcess

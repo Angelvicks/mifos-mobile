@@ -82,8 +82,10 @@ internal fun SavingsTransactionFilterDialog(
         onDismissRequest = onDismiss,
         modifier = modifier,
     ) {
-        Card(shape = RoundedCornerShape(20.dp),
-            colors = CardDefaults.cardColors(containerColor = Color.White) ) {
+        Card(
+            shape = RoundedCornerShape(20.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.White),
+        ) {
             Column(
                 modifier = Modifier.padding(vertical = 20.dp, horizontal = 10.dp),
             ) {

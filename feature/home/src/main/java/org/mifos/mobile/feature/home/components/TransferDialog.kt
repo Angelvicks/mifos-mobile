@@ -17,8 +17,10 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.BasicAlertDialog
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -40,7 +42,7 @@ internal fun TransferDialog(
         onDismissRequest = onDismissRequest,
         modifier = modifier,
     ) {
-        Card (colors = CardDefaults.cardColors(MaterialTheme.colorScheme.onPrimary)) {
+        Card(colors = CardDefaults.cardColors(MaterialTheme.colorScheme.onPrimary)) {
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
