@@ -1,15 +1,3 @@
-<<<<<<< HEAD:core/designsystem/src/main/kotlin/org/mifos/mobile/core/designsystem/theme/Color_neo.kt
-=======
-/*
- * Copyright 2025 Mifos Initiative
- *
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- *
- * See https://github.com/openMF/mobile-mobile/blob/master/LICENSE.md
- */
->>>>>>> 2dfbd8a264594f53851b0a2391dff19d79cf06a0:core/designsystem/src/main/kotlin/org/mifos/mobile/core/designsystem/theme/ColorNeo.kt
 package org.mifos.mobile.core.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
