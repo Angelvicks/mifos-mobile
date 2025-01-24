@@ -75,13 +75,13 @@ fun NoInternetComponent(
                 .padding(bottom = 12.dp),
             imageVector = MifosIcons.WifiOff,
             contentDescription = null,
-            tint = MaterialTheme.colorScheme.onSecondary,
+            tint = MaterialTheme.colorScheme.surfaceTint,
         )
 
         Text(
             text = stringResource(id = R.string.no_internet),
             style = TextStyle(fontSize = 20.sp),
-            color = MaterialTheme.colorScheme.onSecondary,
+            color = MaterialTheme.colorScheme.surfaceTint,
         )
 
         Spacer(modifier = Modifier.height(12.dp))
@@ -113,7 +113,7 @@ fun EmptyDataComponent(
                 .padding(bottom = 12.dp),
             imageVector = MifosIcons.Info,
             contentDescription = null,
-            tint = MaterialTheme.colorScheme.onSecondary,
+            tint = MaterialTheme.colorScheme.surfaceTint,
         )
 
         Text(
@@ -124,7 +124,7 @@ fun EmptyDataComponent(
                 stringResource(id = R.string.something_went_wrong)
             },
             style = TextStyle(fontSize = 20.sp),
-            color = MaterialTheme.colorScheme.onSecondary,
+            color = MaterialTheme.colorScheme.surfaceTint,
             textAlign = TextAlign.Center,
         )
 
@@ -157,14 +157,14 @@ fun EmptyDataComponentWithModifiedMessageAndIcon(
                 .padding(bottom = 12.dp),
             imageVector = if (isEmptyData) icon else MifosIcons.Info,
             contentDescription = null,
-            tint = MaterialTheme.colorScheme.onSecondary,
+            tint = MaterialTheme.colorScheme.surfaceTint,
         )
 
         Text(
             modifier = Modifier.padding(horizontal = 20.dp),
             text = if (isEmptyData) message else stringResource(id = R.string.something_went_wrong),
             style = TextStyle(fontSize = 20.sp),
-            color = MaterialTheme.colorScheme.onSecondary,
+            color = MaterialTheme.colorScheme.surfaceTint,
             textAlign = TextAlign.Center,
         )
     }

@@ -10,7 +10,7 @@
 -->
 <resources>
     <string name="feature_about_app_name">Neobt Mobile</string>
-    <string name="feature_about_description">An Android Application built on top of the NEO Bank Technologies Self-Service platform for end-user customers to view/transact on the accounts and loans they hold.</string>
+    <string name="feature_about_description">An Android Application built on top of NEO Bank Technologies Self-Service platform for end-user customers to view/transact on the accounts and loans they hold.</string>
     <string name="feature_about_copyright_mifos">©2016-%1$s Neo Bank Initiative.</string>
     <string name="feature_about_app_version">App version  1.0</string>
     <string name="feature_about_official_website">Official Website</string>

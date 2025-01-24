@@ -43,8 +43,9 @@ import org.mifos.mobile.core.designsystem.components.MifosButton
 import org.mifos.mobile.core.designsystem.components.MifosOutlinedTextButton
 import org.mifos.mobile.core.designsystem.components.MifosOutlinedTextField
 import org.mifos.mobile.core.designsystem.theme.DarkGray
+import org.mifos.mobile.core.designsystem.theme.DarkPrimary
 import org.mifos.mobile.core.designsystem.theme.MifosMobileTheme
-import org.mifos.mobile.core.designsystem.theme.Primary
+import org.mifos.mobile.core.designsystem.theme.LightPrimary
 import org.mifos.mobile.core.model.entity.beneficiary.Beneficiary
 import org.mifos.mobile.core.model.entity.payload.ReviewTransferPayload
 import org.mifos.mobile.core.model.entity.templates.account.AccountOption
@@ -105,9 +106,9 @@ internal fun ThirdPartyTransferContent(
         for (step in stepsState) {
             MFStepProcess(
                 stepNumber = stringResource(id = step.second),
-                activateColor = Primary,
+                activateColor = LightPrimary,
                 processState = step.first,
-                deactivateColor = DarkGray,
+                deactivateColor = DarkPrimary,
                 isLastStep = step == stepsState.last(),
             ) { stepModifier ->
                 when (step.second) {

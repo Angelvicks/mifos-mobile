@@ -65,7 +65,7 @@
     <color name="accent">#FF4081</color>
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#757575</color>
-    <color name="icons">#FFFFFF</color>
+    <color name="icons">#BDE096</color>
     <color name="divider">#BDBDBD</color>
     <color name="cell_background_color">#ffffff</color>
     <color name="header_line_color">@color/blue_light</color>
